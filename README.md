@@ -46,7 +46,7 @@ Create new json file and save in storage/app/fixtures.
 
 ```
 
-## Php artisan commands
+## php artisan commands
 
 Register provider on your config/app.php file.
 
