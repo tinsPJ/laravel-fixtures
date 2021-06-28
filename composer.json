@@ -3,7 +3,7 @@
     "description": "This package is used to upload json data to table",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "authors": [
       {
