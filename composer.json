@@ -5,6 +5,12 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {},
+    "authors": [
+      {
+        "name": "Tins P Joseph",
+        "email": "tinspj1997@gmail.com"
+      }
+    ],
     "autoload": {
         "psr-4": {
           "Tinspj\\Fixtures\\": "src"
