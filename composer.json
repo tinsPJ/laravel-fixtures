@@ -1,0 +1,13 @@
+{
+    "name": "tinspj/fixtures",
+    "description": "This package is used to upload json data to table",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Tinspj\\Fixtures\\": "src"
+        }
+      }
+}
