@@ -1,7 +1,7 @@
 
 # Laravel Fixtures
 
-Laravel fixures is a php library for dinsert json data to table.
+Laravel fixures is a php library for insert json data to table.
 
 ## Installation
 
