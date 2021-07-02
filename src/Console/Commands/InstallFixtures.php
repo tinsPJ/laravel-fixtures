@@ -26,7 +26,9 @@ class InstallFixtures extends Command
                 array_push($object, $sub_object);
             }
             DB::transaction(function () use ($array, $object) {
+                DB::statement('SET FOREIGN_KEY_CHECKS = 0;');
                 DB::table($array->table)->truncate();
+                DB::statement('SET FOREIGN_KEY_CHECKS = 1;');
                 DB::table($array->table)->insert($object);
             }, 5);
             $this->info('data inserted');
